@@ -14,6 +14,10 @@ nav {
     align-items: center;
     min-height: 12vh;
     background-color: #3698ff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .logo {
@@ -61,17 +65,21 @@ nav {
     margin: 5px;
 }
 
-@media screen and (max-width: 1024px){
+/* medium screen */
+@media screen and (min-width: 1024px){
+    /* navbar */
     body {
         overflow-x: hidden;
     }
     .nav-links {
         width: 50%;
     }
+    /* navbar end */
 }
 
-
+/* small screen */
 @media screen and (max-width: 760px){
+    /* navbar */
     body {
         overflow-x: hidden;
     }
@@ -94,10 +102,19 @@ nav {
     .burger {
         display: block;
     }
+    /* navbar end */
     .banner {
-        width: 100%;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        height: 50vh!important;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .banner {
+        height: 40vh!important;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
 
@@ -135,9 +152,10 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
     padding-top: 50px;
     padding-bottom: 50px;
+    height: 88vh;
+    width: 100%
 }
 
 .mission {
@@ -149,6 +167,7 @@ nav {
 .mission h1 {
     text-align: center;
     font-size: 48px;
+    font-weight:bold;
 }
 
 .mission p {
