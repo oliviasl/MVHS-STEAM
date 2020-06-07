@@ -283,14 +283,21 @@ nav {
     float: right;
 }
 
-.card-text{
-    font-size: 18px!important;
+.card-text {
+    font-size: 14px!important;
     line-height: 30px!important;
 }
 
-.card-title{
-    font-size: 22px!important;
+.card-title {
+    font-size: 24px!important;
     font-weight: bold!important;
+    line-height: 30px;
+}
+
+.card-sub-title {
+    font-size: 18px!important;
+    font-weight: bolder!important;
+    line-height: 40px;
 }
 
 .program .card {
