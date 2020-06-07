@@ -113,6 +113,30 @@ nav {
         margin-top: 30px;
         margin-bottom: 30px;
     }
+    .welcome h1 {
+        font-size: 32px!important;
+    }
+    .welcome p {
+        font-size: 18px!important;
+    }
+    .program h1 {
+        font-size: 32px!important;
+    }
+    .program p {
+        font-size: 18px!important;
+    }
+    .program h6 {
+        font-size: 24px!important;
+    }
+    .program li {
+        font-size: 18px!important;
+    }
+    .faq p {
+        font-size: 18px!important;
+    }
+    .faq h1 {
+        font-size: 32px!important;
+    }
 }
 
 
@@ -206,7 +230,7 @@ nav {
 .program h1 {
     text-align: left;
     font-size: 48px;
-    color: red
+    color: #cc7102;
 }
 
 .program p {
@@ -218,6 +242,14 @@ nav {
 .program h6 {
     font-size: 30px;
     font-weight: bold;
+    line-height: 60px;
+    color: #cc7102;
+}
+
+.program li {
+    font-size: 22px;
+    line-height: 50px;
+    margin-left: 60px;
 }
 
 .register {
@@ -283,21 +315,23 @@ nav {
     float: right;
 }
 
-.card-text {
-    font-size: 14px!important;
-    line-height: 30px!important;
-}
 
 .card-title {
     font-size: 24px!important;
     font-weight: bold!important;
-    line-height: 30px;
+    line-height: 30px!important;
 }
 
-.card-sub-title {
-    font-size: 18px!important;
-    font-weight: bolder!important;
-    line-height: 40px;
+.program h3 {
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 35px;
+    color: #cc7102;
+}
+
+.program h4 {
+    font-size: 16px;
+    line-height: 30px;
 }
 
 .program .card {
@@ -305,4 +339,32 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.email {
+    color: #025ab8;
+}
+
+.faq p {
+    font-size: 22px;
+    text-align: justify;
+    line-height: 50px;
+}
+
+footer {
+    padding: 50px;
+    background-color: #3698ff;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+footer i {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
 }
