@@ -24,4 +24,22 @@ const navSlide = () => {
     });
 }
 
-navSlide();
+const faqHover = () => {
+    var buttons = document.getElementsByClassName("faqButton");
+    var i;
+
+    for (i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener("click", function() {
+          this.classList.toggle("btn-standard");
+          this.classList.toggle('btn-faq');
+        });
+    }
+}
+
+
+const myWebsite = () => {
+    navSlide();
+    faqHover();
+}
+
+myWebsite();

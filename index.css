@@ -18,6 +18,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 .logo {
@@ -159,8 +160,11 @@ nav {
 }
 
 .mission {
-    padding: 150px;
-    background-color: #ffff96;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    background-color: #9ed3ff;
     color: black;
 }
 
@@ -176,8 +180,20 @@ nav {
     line-height: 50px;
 }
 
+.missionimage {
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .program {
-    padding: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 15vw;
+    padding-right: 15vw;
     background-color: white;
     color: black;
 }
@@ -215,4 +231,44 @@ nav {
 
 .register:hover {
     background-color: #007bff;
+}
+
+.faq {
+    background-color: #9ed3ff;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.faq h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.faqButton {
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 90px;
+    font-size: 18px;
+}
+
+.faqButton:hover {
+    background-color: #3698ff;
+    color: white;
+}
+
+.btn-faq {
+    background-color: #3698ff;
+    color: white;
+}
+
+.btn-standard {
+    color: #3698ff;
+    background-color: white;
+}
+
+.card-body {
+    font-size: 18px;
 }
