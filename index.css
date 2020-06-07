@@ -155,6 +155,9 @@ nav {
     .faq p {
         font-size: 14px!important;
     }
+    .faqButton {
+        height: 110px;
+    }
 }
 
 .nav-active{
