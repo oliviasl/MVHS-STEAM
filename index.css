@@ -147,16 +147,19 @@ nav {
         margin-bottom: 30px;
     }
     .welcome p {
-        font-size: 14px!important;
+        font-size: 16px!important;
+        line-height: 40px!important;
     }
     .program p {
-        font-size: 14px!important;
+        font-size: 16px!important;
+        line-height: 40px!important;
     }
     .faq p {
-        font-size: 14px!important;
+        font-size: 16px!important;
+        line-height: 40px!important;
     }
     .faqButton {
-        height: 110px;
+        height: 110px!important;
     }
 }
 
