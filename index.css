@@ -272,3 +272,8 @@ nav {
 .card-body {
     font-size: 18px;
 }
+
+.glyphicon-right {
+    padding-top: 5px;
+    float: right;
+}

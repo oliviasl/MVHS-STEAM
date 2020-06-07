@@ -1,3 +1,4 @@
+//navbar
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
@@ -24,22 +25,25 @@ const navSlide = () => {
     });
 }
 
-const faqHover = () => {
-    var buttons = document.getElementsByClassName("faqButton");
-    var i;
-
-    for (i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener("click", function() {
-          this.classList.toggle("btn-standard");
-          this.classList.toggle('btn-faq');
-        });
-    }
-}
+//faq button press
+$(document).ready(function() {
+    $('.faqButton').click(function() {
+        this.classList.toggle("btn-standard");
+        this.classList.toggle('btn-faq');
+    });
+});
 
 
-const myWebsite = () => {
-    navSlide();
-    faqHover();
-}
 
-myWebsite();
+//menu glyphicon
+$(document).ready(function () {
+    $('.collapse').on('shown.bs.collapse', function () {
+        $(this).parent().find('.glyphicon-menu-down').removeClass('glyphicon-menu-down').addClass('glyphicon-menu-up');
+    }).on('hidden.bs.collapse', function () {
+        $(this).parent().find(".glyphicon-menu-up").removeClass("glyphicon-menu-up").addClass("glyphicon-menu-down");
+    });
+});
+
+
+
+navSlide();
