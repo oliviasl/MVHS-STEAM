@@ -71,7 +71,7 @@ nav {
 }
 
 /* medium screen */
-@media screen and (min-width: 1024px){
+@media (min-width: 1024px){
     /* navbar */
     body {
         overflow-x: hidden;
@@ -83,7 +83,7 @@ nav {
 }
 
 /* small screen */
-@media screen and (max-width: 760px){
+@media (max-width: 760px){
     /* navbar */
     body {
         overflow-x: hidden;
@@ -140,22 +140,22 @@ nav {
 }
 
 
-@media screen and (max-width: 300px){
+@media (max-width: 300px){
     .banner {
         height: 40vh!important;
         margin-top: 30px;
         margin-bottom: 30px;
     }
     .welcome p {
-        font-size: 16px!important;
+        font-size: 12px!important;
         line-height: 40px!important;
     }
     .program p {
-        font-size: 16px!important;
+        font-size: 12px!important;
         line-height: 40px!important;
     }
     .faq p {
-        font-size: 16px!important;
+        font-size: 12px!important;
         line-height: 40px!important;
     }
     .faqButton {
