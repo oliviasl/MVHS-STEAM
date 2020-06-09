@@ -151,8 +151,8 @@ nav {
     .faqButton {
         height: 130px!important;
     }
-    .nav-links a {
-        font-size: 14px!important;
+    .nav-links {
+        font-size: 12px!important;
     }
 }
 
