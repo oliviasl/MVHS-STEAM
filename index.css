@@ -374,6 +374,12 @@ nav {
     width: 90%;
 }
 
+.gallery img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
 footer {
     padding: 50px;
     background-color: #3698ff;
