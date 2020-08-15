@@ -72,6 +72,9 @@ nav {
 }
 
 @media (min-width: 770px){
+    .carousel-caption {
+        top: 30%;
+    }
     .carousel-caption h5 {
         font-size: 30px;
         padding-left: 5%;
@@ -136,6 +139,9 @@ nav {
     .faq h1 {
         font-size: 32px!important;
     }
+    .carousel-caption {
+        top: 30%;
+    }
     .carousel-caption h5 {
         font-size: 20px;
         padding-left: 5%;
@@ -167,6 +173,9 @@ nav {
     }
     .nav-links a {
         font-size: 14px!important;
+    }
+    .carousel-caption {
+        top: 10%;
     }
     .carousel-caption h5 {
         font-size: 15px;
@@ -468,8 +477,4 @@ footer i {
     margin: 1px;
     height: 2px;
     width: 30px;
-}
-
-.carousel-caption {
-    top: 30%;
 }
