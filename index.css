@@ -140,7 +140,7 @@ nav {
         font-size: 32px!important;
     }
     .carousel-caption {
-        top: 10%;
+        top: 15%;
     }
     .carousel-caption h5 {
         font-size: 15px;
@@ -178,7 +178,7 @@ nav {
         top: 10%;
     }
     .carousel-caption h5 {
-        font-size: 15px;
+        font-size: 10px;
         padding-left: 5%;
         padding-right: 5%;
     }
