@@ -68,6 +68,15 @@ nav {
     height: 3px;
     background-color: white;
     margin: 5px;
+    transition: .5s ease-in-out;
+}
+
+@media (min-width: 770px){
+    .carousel-caption h5 {
+        font-size: 30px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
 
 
@@ -127,6 +136,11 @@ nav {
     .faq h1 {
         font-size: 32px!important;
     }
+    .carousel-caption h5 {
+        font-size: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
 
 
@@ -153,6 +167,11 @@ nav {
     }
     .nav-links a {
         font-size: 14px!important;
+    }
+    .carousel-caption h5 {
+        font-size: 15px;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
 
@@ -396,4 +415,61 @@ footer i {
     text-decoration: none;
     color: white;
     font-size: 28px;
+}
+
+#testimonial-carousel {
+    background-color: rgb(34, 44, 90);
+}
+
+.carousel-item img{
+    width: 100%;
+    max-width: 1000px;
+    min-width: 700px;
+    min-height: 350px;
+    max-height: 750px;
+    height: 75vh;
+    opacity: .4;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    position: relative;
+}
+
+.carousel-item {
+    overflow-x: hidden;
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: 90%;
+    bottom: 0;
+    left: 35%;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    color: white;
+    transform: translate(-50%,-50%);
+}
+
+.carousel-indicators li {
+    background-color: white;
+    border: none;
+    background-clip: none;
+    height: 2px;
+}
+
+.carousel-indicators .active {
+    background-color: white;
+    border: none;
+    background-clip: none;
+    margin: 1px;
+    height: 2px;
+    width: 30px;
+}
+
+.carousel-caption {
+    top: 30%;
 }
