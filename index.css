@@ -22,7 +22,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 3;
 }
 
 .logo {
@@ -344,7 +344,7 @@ footer i {
     top: 90%;
     bottom: 0;
     left: 35%;
-    z-index: 15;
+    z-index: 2;
     display: flex;
     justify-content: center;
     margin-right: 15%;
@@ -368,6 +368,10 @@ footer i {
     margin: 1px;
     height: 2px;
     width: 30px;
+}
+
+.carousel-caption {
+    z-index: 2;
 }
 
 .register-banner {
