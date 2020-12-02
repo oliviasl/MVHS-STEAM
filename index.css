@@ -113,6 +113,7 @@ nav {
     padding-right: 15vw;
     background-image: url('ImageAssets/lightbluepattern.jpg');
     color: black;
+    margin-top: 0;
 }
 
 .welcome h1 {
@@ -181,6 +182,7 @@ nav {
 .register a {
     text-decoration: none;
     color: white;
+    margin: none;
 }
 
 .register:hover {
@@ -366,6 +368,23 @@ footer i {
     margin: 1px;
     height: 2px;
     width: 30px;
+}
+
+.register-banner {
+    background-color: #3698ff;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.register-banner h6 {
+    font-size: 24px;
+    padding: 10vh;
+    margin: 0;
+}
+
+.register-banner a {
+    color: #ffdc18;
 }
 
 @media (min-width: 770px){
