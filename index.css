@@ -375,11 +375,12 @@ footer i {
     text-align: center;
     color: white;
     margin: 0;
+    border-top: solid white 1px;
 }
 
 .register-banner h6 {
     font-size: 24px;
-    padding: 10vh;
+    padding: 7vh;
     margin: 0;
 }
 
